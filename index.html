@@ -1,1 +1,51 @@
-test
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-language" content="ja">
+<meta charset="UTF-8">
+<meta name="description" content="ONE NIGHT 人狼 on Slack">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" type="text/css" href="./css/base.css">
+<title>ONE NIGHT 人狼 on Slack</title>
+</head>
+<body>
+<header>
+<p>ワンナイト人狼をslackで手軽にやりたい</p>
+<img src="./img/logo.svg" id="topLogo">
+</header>
+<main>
+<h1>ルール</h1>
+<p>基本的に<a href="http://1nite-jinro.mystrikingly.com/" target="_blank">公式のワンナイト人狼</a>のルールに全て従う形となっています。<br>
+3人-8人で遊べて10-15分程度でワンゲームが終わるような仕組みにしています。</p>
+
+<h2>よくある質問</h2>
+<dl>
+	<dt>場の2枚が人狼で、実際のプレイヤーの中に誰も人狼がいない場合はどうするの？</dt>
+	<dd>その場合は、<b>それぞれプレイヤーが1票ずつ入るよう</b>にして「平和村」として成立させてください。</dd>
+	<dt>スタートするとエラーメッセージが出ます</dt>
+	<dd>サーバレスでやってるのでGoogleさんの反応速度によっては、エラーが出る時があります。</dd>
+	<dt>占い師や怪盗の時にコマンドを打つとエラー表示が出るんだけど？</dt>
+	<dd>サーバレスでやってるのでGoogleさんの反応速度によっては、エラーが出る時があります。</dd>
+	<dt>占いをしたり、怪盗でカードを交換したのにすぐにチャンネルに反映されないんだけど？</dt>
+	<dd>SlackのAPIの回数制限対応や、すぐにログが見えるとバレる可能性があるのでランダムで時間を置いて投稿するようになっています。</dd>
+</dl>
+<h2>使い方</h2>
+<ol>
+	<li>とりあえずメンバーが3人以上いる部屋を用意します。</li>
+	<li>非公開の部屋の場合は「gamemaster」を招待します。</li>
+	<li>メンバーの誰かが「/jinro start」を入力してください。</li>
+	<li>あとは指示に従えばできるはずです。</li>
+</ol>
+<h2>Tech</h2>
+<p>slackで無料で手軽に具現化する為に以下の技術を使っています。</p>
+<ul>
+	<li>GASによるAPIサーバー</li>
+	<li>GithubIOによる静的ページ（このサイト）と画像のホスティング</li>
+</ul>
+
+</main>
+<footer>
+<p>ワンナイト人狼は私の知り合いの奥井晶久さんの商標です。ありがとうAkidelic! by Kurokky</p>
+</footer>
+</body>
+</html>
