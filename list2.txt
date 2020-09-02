@@ -9,5 +9,4 @@
 ./img/gm.png
 ./img/fortune-teller.png
 ./img/logo.svg
-./img/ogp2.png
 ./img/villager.png
